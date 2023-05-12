@@ -3,24 +3,59 @@
     <head>
         <title> Index Page </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+     <style>
+        header{
+            background-color: black;
+            color: orchid;
+        }
+        #userName {
+            margin-right: 50px;
+        }
+        #number{
+            margin-right: 50px;
+        }
+         nav{
+            text-align: left;
+            margin-right: 15px;
+            position: fixed;
+            width: 100%;
+            padding: 10px 15px;
+           text-transform: uppercase;
+           font-family: 'Roboto',sans-serif;
+           display: inline-block;
+           word-spacing: 25px;
+           letter-spacing: 3x;
+           text-decoration: none;
+        }
+
+        #icon  {
+            margin-right: 15px;
+            background-color: cornflowerblue;
+            color: azure;
+            padding-left: 15px;
+        }
+        
+         
+     </style>
+    
     </head>
     <body>
         <header>
         <i class="fa fa-user-circle" aria-hidden="true"></i>
-        <span> Mohit Sharma </span> &nbsp; &nbsp; &nbsp; 
+        <span id="userName"> Mohit Sharma </span> 
         <i class="fa fa-phone-square" aria-hidden="true"></i>
-        <span> 8600 2222 50 </span>&nbsp; &nbsp; &nbsp;
+        <span id="number"> 8600 2222 50 </span>
         <i class="fa fa-envelope" aria-hidden="true"></i>
         <span> mohitsharma@123gmail.com</span>
         </header>
 
          <br>
         <nav>
-            <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp; 
-            <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp; 
-            <a href="education.html" target="frame">EDUCATION</a> &nbsp; &nbsp; &nbsp; 
-            <a href="personal.html" target="frame">PERSONAL</a> &nbsp; &nbsp; &nbsp; 
-            <a href="contactUs.html" target="frame">CONTACT ME</a>
+            <a href="home.html" target="frame">HOME</a> 
+            <a href="techStack.html" target="frame">TECHNOLOGYSTACK</a> 
+            <a href="education.html" target="frame">EDUCATION</a> 
+            <a href="personal.html" target="frame">PERSONAL</a> 
+            <a href="contactUs.html" target="frame">CONTACTME</a>
         </nav>
          <br><br>
         <iframe width="900px" height="700px" name="frame" src="home.html">
@@ -28,11 +63,11 @@
 
         </iframe>
         <br><br>
-        <span> Follow Me </span> &nbsp; &nbsp; &nbsp; 
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-facebook-official" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp; 
-        <i class="fa fa-google" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp; 
+        <span id="icon"> Follow Me </span> 
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i> 
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>  
+        <i class="fa fa-google" aria-hidden="true"></i> 
         <i class="fa fa-youtube" aria-hidden="true"></i>
     </body>
 </html>
